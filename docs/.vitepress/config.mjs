@@ -47,6 +47,11 @@ export default defineConfig({
         activeMatch: '/states/' 
       },
       { 
+        text: 'Rail Network', 
+        link: '/railnetwork/index',
+        activeMatch: '/railnetwork/' 
+      },
+      { 
         text: 'Edit Guide', 
         link: '/misc/editingGuide' 
       },
@@ -89,6 +94,11 @@ export default defineConfig({
               link: "/states/current-states"
             }
           ]
+        }
+      ],
+      "/railnetwork/": [
+        {
+          text: "Rail Network"
         }
       ],
     },
